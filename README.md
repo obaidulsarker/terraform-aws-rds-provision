@@ -1,4 +1,5 @@
 ﻿# terraform-aws-rds-provision
+This code is applicable for the provisioning two RDS instances.
 
 Step-1: Install Terraform using following url.
 https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
