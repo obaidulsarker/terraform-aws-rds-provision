@@ -23,9 +23,12 @@ To create, modify, or delete your own access keys (console)
    -> On the Retrieve access keys page, choose either Show to reveal the value of your user's secret access key, or Download .csv file. This is your only opportunity to save your secret access key. After you've saved your secret access key in a secure location, choose Done.
    
 ## Step-4: Download the source code in "terraform-aws-rds-provision" directory
+For example, you extracted the code to D:\terraform-aws-rds-provision directory
 
 ## Step-5: Go to windows console or linux terminal. Go to "terraform-aws-rds-provision" directory. Provide AWS Access Key and Secret Value
 ```
+d:
+cd terraform-aws-rds-provision
 aws configue
 ```
 Here will ask aws access key and secret value
