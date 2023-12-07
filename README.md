@@ -12,18 +12,19 @@ You can use the AWS Management Console to manage the access keys of an IAM user.
 To create, modify, or delete your own access keys (console)
  - Use your AWS account ID or account alias, your IAM user name, and your password to sign in to the https://console.aws.amazon.com/iam
  - In the navigation bar on the upper right, choose your user name, and then choose Security credentials.
- - To create an access key
-    ** In the Access keys section, choose Create access key. If you already have two access keys, this button is deactivated and you must delete an access key before you can create a new one.
+   ![plot](./access_key_creation.png)
+ - To create an access key - <br>
+    -> In the Access keys section, choose Create access key. If you already have two access keys, this button is deactivated and you must delete an access key before you can create a new one.
     
-    ** On the Access key best practices & alternatives page, choose your use case to learn about additional options which can help you avoid creating a long-term access key. If you determine that your use case still requires an access key, choose Other and then choose Next.
+    -> On the Access key best practices & alternatives page, choose your use case to learn about additional options which can help you avoid creating a long-term access key. If you determine that your use case still requires an access key, choose Other and then choose Next.
     
-    ** (Optional) Set a description tag value for the access key. This adds a tag key-value pair to your IAM user. This can help you identify and update access keys later. The tag key is set to the access key id. The tag value is set to the access key description that you specify. When you are finished, choose Create access key.
+    -> (Optional) Set a description tag value for the access key. This adds a tag key-value pair to your IAM user. This can help you identify and update access keys later. The tag key is set to the access key id. The tag value is set to the access key description that you specify. When you are finished, choose Create access key.
     
-   ** On the Retrieve access keys page, choose either Show to reveal the value of your user's secret access key, or Download .csv file. This is your only opportunity to save your secret access key. After you've saved your secret access key in a secure location, choose Done.
+   -> On the Retrieve access keys page, choose either Show to reveal the value of your user's secret access key, or Download .csv file. This is your only opportunity to save your secret access key. After you've saved your secret access key in a secure location, choose Done.
    
-## Step-4: Download the source code in <<terraform-aws-rds-provision>> directory
+## Step-4: Download the source code in "terraform-aws-rds-provision" directory
 
-## Step-5: Go to windows console or linux terminal. Go to <<terraform-aws-rds-provision>> directory. Provide AWS Access Key and Secret Value
+## Step-5: Go to windows console or linux terminal. Go to "terraform-aws-rds-provision" directory. Provide AWS Access Key and Secret Value
 ```
 aws configue
 ```
