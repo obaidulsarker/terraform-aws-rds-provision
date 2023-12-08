@@ -50,6 +50,10 @@ Here you will be asked for confirmation, write "yes" if everything looks good.
 
 Now you can check RDS instances in AWS console
 
+## Step-9: Delete the created RDS instances
+```
+terraform destory
+```
 
 
 
